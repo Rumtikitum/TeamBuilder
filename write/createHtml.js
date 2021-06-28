@@ -13,7 +13,7 @@ const generateCard = array => {
                 <ul class="list-group list-group-flush" style="border: solid 20px #DCDCDC">
                   <li class="list-group-item">ID: ${array[i].id}</li>
                   <li class="list-group-item">Email: <a href="mailto:${array[i].email}">${array[i].email}</a></li>
-                  <li class="list-group-item">Office Number: ${array[i].phoneNumber}</li>
+                  <li class="list-group-item">Office Number: ${array[i].officeNumber}</li>
                 </ul>
               </div>`)
               //utilizes prior info gathered to populate info for manager

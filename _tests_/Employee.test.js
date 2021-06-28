@@ -6,16 +6,14 @@ describe('Employee', () => {
 	});	
     
     test("getName returns name", () => {
-	    expect(new Employee("James Doe").getName()).toBe("James Doe");
+	    expect(new Employee("James Bond").getName()).toBe("James Bond");
 	});
 	
 	test("getId returns id", () => {
-	    expect(new Employee("James Doe", "007").getId()).toBe("007");
+	    expect(new Employee("James Bond", "007").getId()).toBe("007");
 	});
 	
 	test("getEmail returns email address", () => {
-	    expect(new Employee("James Doe", "007", "fakeemail@gmail.com").getEmail()).toBe("fakeemail@gmail.com");
+	    expect(new Employee("James Bond", "007", "topsecret@gmail.com").getEmail()).toBe("topsecret@gmail.com");
 	});
-	
-
 })

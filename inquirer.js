@@ -32,7 +32,7 @@ const init = () => {
   
       {
           type: 'input',
-          message: "Manager's phone number?",
+          message: "Manager's office location?",
           name: 'office',
         },
     ])
