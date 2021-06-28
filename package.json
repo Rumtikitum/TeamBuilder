@@ -4,7 +4,7 @@
   "description": "",
   "main": "inquirer.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -18,7 +18,10 @@
   },
   "homepage": "https://github.com/Rumtikitum/TeamBuilder#readme",
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.3",
     "inquirer": "^8.1.1",
-    "jest": "^27.0.5"
+    "install": "^0.13.0",
+    "jest": "^27.0.5",
+    "npm": "^7.19.0"
   }
 }
