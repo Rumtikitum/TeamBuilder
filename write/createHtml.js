@@ -1,6 +1,6 @@
 //Writes the file to create the bootstrap cards
 const generateCard = array => {
-    //makes cards array
+    //makes cards array!
       let cards = []
         for (let i = 0; i < array.length; i++) {
             if (array[i].getRole() === "Manager") {
